@@ -1,10 +1,12 @@
-import { useState } from 'react';
-import reactLogo from './assets/react.svg';
-import viteLogo from './assets/vite.svg';
-import heroImg from './assets/hero.png';
-import './App.css';
+import { useState } from "react";
 
-function App() {
+import heroImg from "./assets/hero.png";
+import reactLogo from "./assets/react.svg";
+import viteLogo from "./assets/vite.svg";
+
+import "./App.css";
+
+export const App = () => {
   const [count, setCount] = useState<number>(0);
 
   return (
@@ -97,6 +99,4 @@ function App() {
       <section id="spacer"></section>
     </>
   );
-}
-
-export default App;
+};
