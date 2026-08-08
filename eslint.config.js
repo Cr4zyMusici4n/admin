@@ -97,8 +97,6 @@ export default defineConfig([
             ["^\\u0000"],
             // Node.js builtins prefixed with `node:`
             ["^node:"],
-            // SvelteKit builtins
-            ["^\\$app/"],
             // Packages
             ["^@?\\w"],
             // Internal packages.
