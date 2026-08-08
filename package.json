@@ -9,7 +9,7 @@
     "preview": "vite preview",
     "prepare": "husky",
     "lint:eslint": "eslint . --max-warnings 10",
-    "lint:tsc": "tsc -b",
+    "lint:tsc": "tsc -b --noEmit",
     "lint:stylelint": "stylelint '**/*.css'",
     "lint": "bun lint:eslint && bun lint:stylelint && bun lint:tsc",
     "fix:eslint": "bun lint:eslint --fix",
