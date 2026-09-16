@@ -4,7 +4,7 @@ import heroImg from "./assets/hero.png";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "./assets/vite.svg";
 
-import "./App.css";
+import "./App.scss";
 
 export const App = () => {
   const [count, setCount] = useState<number>(0);
