@@ -1,13 +1,13 @@
 import js from "@eslint/js";
-import globals from "globals";
 import importPlugin from "eslint-plugin-import-x";
-import importSortPlugin from "eslint-plugin-simple-import-sort";
+import oxfmtPlugin from "eslint-plugin-oxfmt";
 import reactHooks from "eslint-plugin-react-hooks";
 import reactRefresh from "eslint-plugin-react-refresh";
-import tseslint from "typescript-eslint";
-import oxfmtPlugin from "eslint-plugin-oxfmt";
+import importSortPlugin from "eslint-plugin-simple-import-sort";
 import { defineConfig, includeIgnoreFile } from "eslint/config";
+import globals from "globals";
 import path from "path";
+import tseslint from "typescript-eslint";
 
 const gitignorePath = path.resolve(import.meta.dirname, ".gitignore");
 
@@ -73,6 +73,7 @@ export default defineConfig([
       "prefer-template": "error",
       "object-shorthand": "error",
       "arrow-body-style": "error",
+      "no-shadow": "error",
       "no-restricted-exports": [
         "error",
         { restrictDefaultExports: { direct: true, defaultFrom: true, namedFrom: true } },

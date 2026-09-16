@@ -13,16 +13,13 @@
   --heading: system-ui, "Segoe UI", roboto, sans-serif;
   --mono: ui-monospace, consolas, monospace;
   --test: "red";
-
-  font: 18px/145% var(--sans);
+  font: 18px / 145% var(--sans);
   font-synthesis: none;
   color: var(--text);
   text-rendering: optimizelegibility;
   letter-spacing: 0.18px;
-
   color-scheme: light dark;
   background: var(--bg);
-
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
@@ -53,14 +50,12 @@
 #root {
   display: flex;
   flex-direction: column;
-
   box-sizing: border-box;
   width: 1126px;
   max-width: 100%;
   min-height: 100svh;
   margin: 0 auto;
   border-inline: 1px solid var(--border);
-
   text-align: center;
 }
 

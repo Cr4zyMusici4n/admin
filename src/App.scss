@@ -3,12 +3,9 @@
   padding: 5px 10px;
   border: 2px solid transparent;
   border-radius: 5px;
-
   font-size: 16px;
   color: var(--accent);
-
   background: var(--accent-bg);
-
   transition: border-color 0.3s;
 
   &:hover {
@@ -53,7 +50,6 @@
     z-index: 0;
     top: 107px;
     transform: perspective(2000px) rotateZ(300deg) rotateX(40deg) rotateY(39deg) scale(0.8);
-
     width: auto;
     height: 26px;
   }
@@ -111,10 +107,8 @@
 #next-steps ul {
   display: flex;
   gap: 8px;
-
   margin: 32px 0 0;
   padding: 0;
-
   list-style: none;
 
   .logo {
@@ -125,16 +119,12 @@
     display: flex;
     gap: 8px;
     align-items: center;
-
     padding: 6px 12px;
     border-radius: 6px;
-
     font-size: 16px;
     color: var(--text-h);
     text-decoration: none;
-
     background: var(--social-bg);
-
     transition: box-shadow 0.3s;
 
     &:hover {
